@@ -1,10 +1,15 @@
 import './App.css';
 import { BalancedDietTracker } from './BalancedDietTracker/BalancedDietTracker';
+import { CheckUpReminder } from './CheckUpReminder/CheckUpReminder';
+import { Footer } from './Footer';
+import { Navbar } from './Navbar/Navbar';
+import { PhysicalReminder } from './PhysicalReminder/PhysicalReminder';
 import { SleepTracker } from './SleepTracker/SleepTracker';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
      <h1>Health App</h1>
      <div className='container'>
      <div className='left-side'>
@@ -37,6 +42,8 @@ function App() {
       </p>
      </div>
      </div>
+     <br/>
+     <br/>
      <div className='container-b'>
       <div className='sleeptracker'>
         <SleepTracker/>
@@ -45,6 +52,22 @@ function App() {
         <BalancedDietTracker/>
       </div>
      </div>
+     <br/>
+     <br/>
+     <div className='container-c'>
+      <div className='checkupreminder'>
+        <CheckUpReminder/>
+      </div>
+      <div className='physicalreminder'>
+        <PhysicalReminder/>
+      </div>
+     </div>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <Footer/>
     </div>
   );
 }

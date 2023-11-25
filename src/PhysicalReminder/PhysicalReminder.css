@@ -1,0 +1,21 @@
+.physical h2{
+    color:#fff;
+    text-decoration-line: underline;
+    text-decoration-color:burlywood ;
+}
+.physical-input{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+}
+.physical button{
+    width: 80%;
+    height: 72px;
+    color: white;
+    background: orange;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}

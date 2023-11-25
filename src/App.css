@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background: whitesmoke;
+  background: linear-gradient(to bottom right,#fffeff,#62abe7);
 }
 
 .container{
@@ -44,7 +44,7 @@ h1 {
 }
 .container-b{
   display: flex;
-  background: linear-gradient(to bottom right,#FDABDD,#374A5A);
+  background: linear-gradient(to bottom right,#e7d6e1,#58abf0);
   width: 100%;
   height: 100%;
 }
@@ -58,6 +58,30 @@ h1 {
   width: 50vw;
   height: 100%;
 }
-
+.container-c{
+  display: flex;
+  background: linear-gradient(to bottom left,#3b3b3b,#58abf0);
+  width: 100%;
+  height: 100%;
+}
+.checkupreminder{
+  margin-left: auto;
+  width: 50vw;
+  height: 100%;
+}
+.physicalreminder{
+  margin-right: auto;
+  width: 50vw;
+  height: 100%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 
