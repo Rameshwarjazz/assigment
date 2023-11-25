@@ -1,6 +1,9 @@
-Screenshot 2023-11-25 162240.png Screenshot 2023-11-25 162205.png Screenshot 2023-11-25 162123.png Screenshot 2023-11-25 162004.png
 
-
+#output
+![Screenshot 2023-11-25 162004](https://github.com/Rameshwarjazz/assigment/assets/122396728/ef5c66d3-aa1a-400c-bc9f-74f52aaeaf09)
+![Screenshot 2023-11-25 162240](https://github.com/Rameshwarjazz/assigment/assets/122396728/ff24c14e-deb5-4bec-8cc3-1368c47246a8)
+![Screenshot 2023-11-25 162205](https://github.com/Rameshwarjazz/assigment/assets/122396728/e8b60e14-8ea0-4f52-9243-b03a5819b764)
+![Screenshot 2023-11-25 162123](https://github.com/Rameshwarjazz/assigment/assets/122396728/a56b1b58-f8ee-47b7-8792-e10d035cc032)
 
 Features:
 Balanced Diet Advice
