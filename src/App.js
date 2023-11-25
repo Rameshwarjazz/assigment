@@ -1,4 +1,6 @@
 import './App.css';
+import { BalancedDietTracker } from './BalancedDietTracker/BalancedDietTracker';
+import { SleepTracker } from './SleepTracker/SleepTracker';
 
 function App() {
   return (
@@ -34,6 +36,14 @@ function App() {
       Recognizing that my dietary needs may be unique and influenced by underlying health conditions, I am motivated to seek personalized guidance. Consulting with a nutritionist is a proactive step towards creating a meal plan tailored to my individual requirements. With their expertise, I can make informed choices that contribute to my overall well-being and health.
       </p>
      </div>
+     </div>
+     <div className='container-b'>
+      <div className='sleeptracker'>
+        <SleepTracker/>
+      </div>
+      <div className='balancediet'>
+        <BalancedDietTracker/>
+      </div>
      </div>
     </div>
   );

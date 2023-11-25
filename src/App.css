@@ -16,11 +16,6 @@ h1 {
   background: whitesmoke;
   color:rgb(143, 142, 142); 
 }
-.left-side{
-  /* display: flex; */
-  /* margin-right: auto; */
-
-}
 .left-side img{
   width: 35vw;
   height: 85vh;
@@ -46,6 +41,22 @@ h1 {
 .cross-red li{
   text-decoration-line: line-through;
   text-decoration-color:red ;
+}
+.container-b{
+  display: flex;
+  background: linear-gradient(to bottom right,#FDABDD,#374A5A);
+  width: 100%;
+  height: 100%;
+}
+.sleeptracker{
+  margin-left: auto;
+  width: 50vw;
+  height: 100%;
+}
+.balancediet{
+  margin-right: auto;
+  width: 50vw;
+  height: 100%;
 }
 
 
